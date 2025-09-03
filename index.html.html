@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8">
+    <title>آموزشگاه زبان دیباگران | Dibagaran Language Institute</title>
+    <style>
+      body {
+        background-color: #ffe5d9;
+        font-family: "Tahoma", sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #2c2c2c;
+        text-align: center;
+      }
+      .container {
+        max-width: 700px;
+        margin: 80px auto;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 34px;
+        color: #d1495b;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 15px;
+      }
+      .btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 24px;
+        background-color: #d1495b;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #a83245;
+      }
+      #infoBox {
+        display: none;
+        margin-top: 30px;
+        background-color: #fff0eb;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: right;
+        direction: rtl;
+      }
+      #infoBox h2 {
+        color: #d1495b;
+        margin-bottom: 15px;
+      }
+      #infoBox ul {
+        padding-right: 20px;
+        line-height: 1.8;
+      }
+      #infoBox a {
+        color: #d1495b;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>آموزشگاه زبان دیباگران</h1>
+      <p>با دیباگران، یادگیری زبان انگلیسی فقط یک کلاس نیست—یک تجربه‌ی پرانرژی و انگیزه‌بخش است.</p>
+      <p>Dibagaran Language Institute is more than a classroom—it's an inspiring journey toward English fluency.</p>
+      <p>کلاس‌های آنلاین و حضوری، با اساتید حرفه‌ای و محیطی گرم و دوستانه.</p>
+      <p>We offer online and in-person classes, taught by expert instructors in a welcoming atmosphere.</p>
+
+      <button class="btn" onclick="showInfo()">معرفی آموزشگاه</button>
+      <a href="signup.html" class="btn">ثبت‌نام | Sign Up</a>
+
+      <div id="infoBox">
+        <h2>معرفی آموزشگاه دیباگران</h2>
+        <ul>
+          <li>آموزش کودک، نوجوان و بزرگسال</li>
+          <li>آموزش ۴ مهارت زبان‌آموزی بر اساس استاندارد CEFR دانشگاه کمبریج جهت آمادگی آزمون‌های بین‌المللی</li>
+          <li>دارای کلاس‌های مجهز به ابزار هوشمند و اینترنت</li>
+          <li>ارائه گواهی معتبر پایان دوره</li>
+          <li>محیطی وسیع شامل کلاس‌های مختلف در سه طبقه و حیاط مجزا</li>
+          <li>کلاس‌های ترمیک، عمومی، خصوصی، جنرال انگلیش، بحث آزاد و آمادگی آیلتس</li>
+        </ul>
+        <p><strong>آدرس:</strong> بلوار جمهوری اسلامی، بلوار هوشنگ مرادی کرمانی، کوچه ۵، اولین فرعی سمت چپ، داخل ساختمان دبستان هوشمند شهید مهدوی</p>
+        <p><strong>شماره تماس ثابت:</strong> 32122811 و 32122812</p>
+        <p><strong>شماره مسئول آموزش (شنبه تا چهارشنبه ساعت ۸ تا ۱۴):</strong> 09044588071</p>
+        <p><strong>صفحه آپارات:</strong> <a href="https://www.aparat.com/Dibagaran.Language" target="_blank">Dibagaran.Language</a></p>
+        <p><strong>اینستاگرام:</strong> language.dibagaran.mahdavi</p>
+        <p><strong>نام انگلیسی:</strong> Dibagaran Language Institute</p>
+      </div>
+    </div>
+
+    <script>
+      function showInfo() {
+        var box = document.getElementById("infoBox");
+        box.style.display = box.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>
